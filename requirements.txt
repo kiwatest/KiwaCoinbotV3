@@ -9,4 +9,4 @@ requests==2.28.2
 matplotlib==3.7.1
 gensim==4.3.1
 joblib==1.2.0
-scipy==1.11.1  
+scipy==1.10.0  

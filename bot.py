@@ -5,7 +5,8 @@ from gensim.models import Word2Vec
 from collections import deque
 import json
 from telegram import Update
-from telegram.ext import CallbackContext, Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import CallbackContext, Updater, CommandHandler, MessageHandler
+from telegram.ext.filters import Filters
 from datetime import datetime, time
 import numpy as np
 import joblib
@@ -311,4 +312,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
 
